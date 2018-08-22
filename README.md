@@ -9,6 +9,7 @@ To customize it, just modify the following lines in fixing_cfgFiles.cpp:
 
   ## Name of the *.cfg file got from the mlp (select-add):
   A diff.cfg is obtained after executing `mlp select-add pot.mtp train.cfg new.cfg diff.cfg`:
+
   string cfgFileName = "diff.cfg";
 
   ## POSCAR file name:
