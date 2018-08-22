@@ -7,7 +7,8 @@ To customize it, just modify the following lines in fixing_cfgFiles.cpp:
   
   vector<string> allElementNames = {string("Co"), string{"Ni"}, string("Ti")};
 
-  ## *.cfg file got from the mlp command: mlp select-add pot.mtp train.cfg new.cfg diff.cfg
+  ## Name of the *.cfg file got from the mlp (select-add):
+  A diff.cfg is obtained after executing `mlp select-add pot.mtp train.cfg new.cfg diff.cfg`:
   string cfgFileName = "diff.cfg";
 
   ## POSCAR file name:
